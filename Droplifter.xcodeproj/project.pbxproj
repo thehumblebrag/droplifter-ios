@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F435224319C5847600B9BF73 /* HBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435224219C5847600B9BF73 /* HBLoginViewController.swift */; };
+		F4E6CDA819C57ECC00CE0198 /* HBAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E6CDA719C57ECC00CE0198 /* HBAppDelegate.swift */; };
+		F4E6CDAF19C57ECC00CE0198 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E6CDAE19C57ECC00CE0198 /* Images.xcassets */; };
+		F4E6CDBE19C57ECD00CE0198 /* DroplifterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E6CDBD19C57ECD00CE0198 /* DroplifterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F41F304819C58A6700801342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41F304319C58A6600801342 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		F41F304A19C58A6700801342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41F304319C58A6600801342 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		F41F304D19C58AB200801342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41F304319C58A6600801342 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		F4E6CDB819C57ECD00CE0198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E6CD9A19C57ECC00CE0198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E6CDA119C57ECC00CE0198;
+			remoteInfo = Droplifter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F41F304319C58A6600801342 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Libs/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		F435224219C5847600B9BF73 /* HBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBLoginViewController.swift; sourceTree = "<group>"; };
+		F4E6CDA219C57ECC00CE0198 /* Droplifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Droplifter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E6CDA619C57ECC00CE0198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E6CDA719C57ECC00CE0198 /* HBAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBAppDelegate.swift; sourceTree = "<group>"; };
+		F4E6CDAE19C57ECC00CE0198 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4E6CDB719C57ECD00CE0198 /* DroplifterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroplifterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E6CDBC19C57ECD00CE0198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E6CDBD19C57ECD00CE0198 /* DroplifterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroplifterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E6CD9F19C57ECC00CE0198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E6CDB419C57ECD00CE0198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F41F304419C58A6600801342 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41F304919C58A6700801342 /* Alamofire.framework */,
+				F41F304B19C58A6700801342 /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F41F304C19C58A7D00801342 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F41F304319C58A6600801342 /* Alamofire.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		F435223D19C581B100B9BF73 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6CDA719C57ECC00CE0198 /* HBAppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F435223E19C5820C00B9BF73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6CDAE19C57ECC00CE0198 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F435223F19C5840D00B9BF73 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F435224219C5847600B9BF73 /* HBLoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F4E6CD9919C57ECC00CE0198 = {
+			isa = PBXGroup;
+			children = (
+				F4E6CDA419C57ECC00CE0198 /* Droplifter */,
+				F41F304C19C58A7D00801342 /* Libraries */,
+				F4E6CDBA19C57ECD00CE0198 /* DroplifterTests */,
+				F4E6CDA319C57ECC00CE0198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E6CDA319C57ECC00CE0198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6CDA219C57ECC00CE0198 /* Droplifter.app */,
+				F4E6CDB719C57ECD00CE0198 /* DroplifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E6CDA419C57ECC00CE0198 /* Droplifter */ = {
+			isa = PBXGroup;
+			children = (
+				F435223F19C5840D00B9BF73 /* Login */,
+				F435223D19C581B100B9BF73 /* Core */,
+				F435223E19C5820C00B9BF73 /* Resources */,
+				F4E6CDA519C57ECC00CE0198 /* Supporting Files */,
+			);
+			path = Droplifter;
+			sourceTree = "<group>";
+		};
+		F4E6CDA519C57ECC00CE0198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6CDA619C57ECC00CE0198 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4E6CDBA19C57ECD00CE0198 /* DroplifterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6CDBD19C57ECD00CE0198 /* DroplifterTests.swift */,
+				F4E6CDBB19C57ECD00CE0198 /* Supporting Files */,
+			);
+			path = DroplifterTests;
+			sourceTree = "<group>";
+		};
+		F4E6CDBB19C57ECD00CE0198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6CDBC19C57ECD00CE0198 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E6CDA119C57ECC00CE0198 /* Droplifter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E6CDC119C57ECD00CE0198 /* Build configuration list for PBXNativeTarget "Droplifter" */;
+			buildPhases = (
+				F4E6CD9E19C57ECC00CE0198 /* Sources */,
+				F4E6CD9F19C57ECC00CE0198 /* Frameworks */,
+				F4E6CDA019C57ECC00CE0198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41F304E19C58AB200801342 /* PBXTargetDependency */,
+			);
+			name = Droplifter;
+			productName = Droplifter;
+			productReference = F4E6CDA219C57ECC00CE0198 /* Droplifter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4E6CDB619C57ECD00CE0198 /* DroplifterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E6CDC419C57ECD00CE0198 /* Build configuration list for PBXNativeTarget "DroplifterTests" */;
+			buildPhases = (
+				F4E6CDB319C57ECD00CE0198 /* Sources */,
+				F4E6CDB419C57ECD00CE0198 /* Frameworks */,
+				F4E6CDB519C57ECD00CE0198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E6CDB919C57ECD00CE0198 /* PBXTargetDependency */,
+			);
+			name = DroplifterTests;
+			productName = DroplifterTests;
+			productReference = F4E6CDB719C57ECD00CE0198 /* DroplifterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E6CD9A19C57ECC00CE0198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HB;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "The Humble Brag";
+				TargetAttributes = {
+					F4E6CDA119C57ECC00CE0198 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F4E6CDB619C57ECD00CE0198 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F4E6CDA119C57ECC00CE0198;
+					};
+				};
+			};
+			buildConfigurationList = F4E6CD9D19C57ECC00CE0198 /* Build configuration list for PBXProject "Droplifter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E6CD9919C57ECC00CE0198;
+			productRefGroup = F4E6CDA319C57ECC00CE0198 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F41F304419C58A6600801342 /* Products */;
+					ProjectRef = F41F304319C58A6600801342 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F4E6CDA119C57ECC00CE0198 /* Droplifter */,
+				F4E6CDB619C57ECD00CE0198 /* DroplifterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F41F304919C58A6700801342 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F41F304819C58A6700801342 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F41F304B19C58A6700801342 /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = F41F304A19C58A6700801342 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E6CDA019C57ECC00CE0198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E6CDAF19C57ECC00CE0198 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E6CDB519C57ECD00CE0198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E6CD9E19C57ECC00CE0198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F435224319C5847600B9BF73 /* HBLoginViewController.swift in Sources */,
+				F4E6CDA819C57ECC00CE0198 /* HBAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E6CDB319C57ECD00CE0198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E6CDBE19C57ECD00CE0198 /* DroplifterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F41F304E19C58AB200801342 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = F41F304D19C58AB200801342 /* PBXContainerItemProxy */;
+		};
+		F4E6CDB919C57ECD00CE0198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E6CDA119C57ECC00CE0198 /* Droplifter */;
+			targetProxy = F4E6CDB819C57ECD00CE0198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4E6CDBF19C57ECD00CE0198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4E6CDC019C57ECD00CE0198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E6CDC219C57ECD00CE0198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Droplifter/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4E6CDC319C57ECD00CE0198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Droplifter/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4E6CDC519C57ECD00CE0198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DroplifterTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Droplifter.app/Droplifter";
+			};
+			name = Debug;
+		};
+		F4E6CDC619C57ECD00CE0198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DroplifterTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Droplifter.app/Droplifter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E6CD9D19C57ECC00CE0198 /* Build configuration list for PBXProject "Droplifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E6CDBF19C57ECD00CE0198 /* Debug */,
+				F4E6CDC019C57ECD00CE0198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E6CDC119C57ECD00CE0198 /* Build configuration list for PBXNativeTarget "Droplifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E6CDC219C57ECD00CE0198 /* Debug */,
+				F4E6CDC319C57ECD00CE0198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E6CDC419C57ECD00CE0198 /* Build configuration list for PBXNativeTarget "DroplifterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E6CDC519C57ECD00CE0198 /* Debug */,
+				F4E6CDC619C57ECD00CE0198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E6CD9A19C57ECC00CE0198 /* Project object */;
+}
